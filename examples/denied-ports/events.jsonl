@@ -1,0 +1,5 @@
+{"action":"deny","dst_ip":"198.51.100.20","dst_port":22,"id":"deny-1","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:05Z","transport":"tcp","type":"network"}
+{"action":"deny","dst_ip":"198.51.100.20","dst_port":80,"id":"deny-2","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:10Z","transport":"tcp","type":"network"}
+{"action":"deny","dst_ip":"198.51.100.20","dst_port":443,"id":"deny-3","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:15Z","transport":"tcp","type":"network"}
+{"action":"deny","dst_ip":"198.51.100.20","dst_port":445,"id":"deny-4","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:20Z","transport":"tcp","type":"network"}
+{"action":"deny","dst_ip":"198.51.100.20","dst_port":3389,"id":"deny-5","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:25Z","transport":"tcp","type":"network"}

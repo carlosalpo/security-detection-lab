@@ -1,0 +1,17 @@
+{
+  "alerts": [
+    {
+      "evidence_ids": [
+        "fail-1",
+        "fail-2",
+        "fail-3",
+        "fail-4",
+        "fail-5"
+      ],
+      "rule_id": "auth-failure-burst",
+      "trigger_id": "fail-5"
+    }
+  ],
+  "scenario": "auth-burst",
+  "schema_version": 1
+}

@@ -1,0 +1,8 @@
+{"id":"retry-one","outcome":"failure","service":"vpn-lab","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:00Z","type":"auth","user":"alice"}
+{"id":"retry-two","outcome":"failure","service":"vpn-lab","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:10Z","type":"auth","user":"alice"}
+{"id":"normal-success","outcome":"success","service":"vpn-lab","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:20Z","type":"auth","user":"alice"}
+{"action":"allow","dst_ip":"198.51.100.20","dst_port":22,"id":"allowed-1","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:05Z","transport":"tcp","type":"network"}
+{"action":"allow","dst_ip":"198.51.100.20","dst_port":80,"id":"allowed-2","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:10Z","transport":"tcp","type":"network"}
+{"action":"allow","dst_ip":"198.51.100.20","dst_port":443,"id":"allowed-3","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:15Z","transport":"tcp","type":"network"}
+{"action":"allow","dst_ip":"198.51.100.20","dst_port":445,"id":"allowed-4","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:20Z","transport":"tcp","type":"network"}
+{"action":"allow","dst_ip":"198.51.100.20","dst_port":3389,"id":"allowed-5","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:25Z","transport":"tcp","type":"network"}
