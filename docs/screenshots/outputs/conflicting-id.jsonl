@@ -1,0 +1,2 @@
+{"id": "fail-1", "outcome": "failure", "service": "vpn-lab", "src_ip": "192.0.2.10", "timestamp": "2026-10-29T12:00:10Z", "type": "auth", "user": "alice"}
+{"id": "fail-1", "outcome": "success", "service": "vpn-lab", "src_ip": "192.0.2.10", "timestamp": "2026-10-29T12:00:10Z", "type": "auth", "user": "alice"}

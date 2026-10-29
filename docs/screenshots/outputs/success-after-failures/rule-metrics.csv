@@ -1,0 +1,5 @@
+rule_id,enabled,threshold,window_seconds,matched_events,qualifying_triggers,emitted_alerts,suppressed_triggers
+auth-failure-burst,True,5,300,3,0,0,0
+denied-port-fanout,True,5,60,0,0,0,0
+multi-account-failures,True,5,300,3,0,0,0
+success-after-failures,True,3,300,4,1,1,0

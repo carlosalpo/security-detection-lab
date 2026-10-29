@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T21:58:20.638472+00:00",
+  "title": "Design System: Security Detection Lab evidence viewer",
+  "extensions": {
+    "colorMeta": {
+      "navy": {
+        "role": "primary",
+        "displayName": "Navy",
+        "tonalRamp": [
+          "oklch(15.0% 0.0483 238.98)",
+          "oklch(26.4% 0.0483 238.98)",
+          "oklch(37.9% 0.0483 238.98)",
+          "oklch(49.3% 0.0483 238.98)",
+          "oklch(60.7% 0.0483 238.98)",
+          "oklch(72.1% 0.0483 238.98)",
+          "oklch(83.6% 0.0483 238.98)",
+          "oklch(95.0% 0.0483 238.98)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15.0% 0.0401 242.80)",
+          "oklch(26.4% 0.0401 242.80)",
+          "oklch(37.9% 0.0401 242.80)",
+          "oklch(49.3% 0.0401 242.80)",
+          "oklch(60.7% 0.0401 242.80)",
+          "oklch(72.1% 0.0401 242.80)",
+          "oklch(83.6% 0.0401 242.80)",
+          "oklch(95.0% 0.0401 242.80)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15.0% 0.0000 89.88)",
+          "oklch(26.4% 0.0000 89.88)",
+          "oklch(37.9% 0.0000 89.88)",
+          "oklch(49.3% 0.0000 89.88)",
+          "oklch(60.7% 0.0000 89.88)",
+          "oklch(72.1% 0.0000 89.88)",
+          "oklch(83.6% 0.0000 89.88)",
+          "oklch(95.0% 0.0000 89.88)"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Canvas",
+        "tonalRamp": [
+          "oklch(15.0% 0.0051 228.82)",
+          "oklch(26.4% 0.0051 228.82)",
+          "oklch(37.9% 0.0051 228.82)",
+          "oklch(49.3% 0.0051 228.82)",
+          "oklch(60.7% 0.0051 228.82)",
+          "oklch(72.1% 0.0051 228.82)",
+          "oklch(83.6% 0.0051 228.82)",
+          "oklch(95.0% 0.0051 228.82)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15.0% 0.0437 240.50)",
+          "oklch(26.4% 0.0437 240.50)",
+          "oklch(37.9% 0.0437 240.50)",
+          "oklch(49.3% 0.0437 240.50)",
+          "oklch(60.7% 0.0437 240.50)",
+          "oklch(72.1% 0.0437 240.50)",
+          "oklch(83.6% 0.0437 240.50)",
+          "oklch(95.0% 0.0437 240.50)"
+        ]
+      },
+      "label-accent": {
+        "role": "neutral",
+        "displayName": "Label Accent",
+        "tonalRamp": [
+          "oklch(15.0% 0.1206 36.57)",
+          "oklch(26.4% 0.1206 36.57)",
+          "oklch(37.9% 0.1206 36.57)",
+          "oklch(49.3% 0.1206 36.57)",
+          "oklch(60.7% 0.1206 36.57)",
+          "oklch(72.1% 0.1206 36.57)",
+          "oklch(83.6% 0.1206 36.57)",
+          "oklch(95.0% 0.1206 36.57)"
+        ]
+      },
+      "divider": {
+        "role": "neutral",
+        "displayName": "Divider",
+        "tonalRamp": [
+          "oklch(15.0% 0.0110 234.83)",
+          "oklch(26.4% 0.0110 234.83)",
+          "oklch(37.9% 0.0110 234.83)",
+          "oklch(49.3% 0.0110 234.83)",
+          "oklch(60.7% 0.0110 234.83)",
+          "oklch(72.1% 0.0110 234.83)",
+          "oklch(83.6% 0.0110 234.83)",
+          "oklch(95.0% 0.0110 234.83)"
+        ]
+      },
+      "table-head": {
+        "role": "neutral",
+        "displayName": "Table Head",
+        "tonalRamp": [
+          "oklch(15.0% 0.0084 236.56)",
+          "oklch(26.4% 0.0084 236.56)",
+          "oklch(37.9% 0.0084 236.56)",
+          "oklch(49.3% 0.0084 236.56)",
+          "oklch(60.7% 0.0084 236.56)",
+          "oklch(72.1% 0.0084 236.56)",
+          "oklch(83.6% 0.0084 236.56)",
+          "oklch(95.0% 0.0084 236.56)"
+        ]
+      },
+      "code-surface": {
+        "role": "neutral",
+        "displayName": "Code Surface",
+        "tonalRamp": [
+          "oklch(15.0% 0.0050 228.82)",
+          "oklch(26.4% 0.0050 228.82)",
+          "oklch(37.9% 0.0050 228.82)",
+          "oklch(49.3% 0.0050 228.82)",
+          "oklch(60.7% 0.0050 228.82)",
+          "oklch(72.1% 0.0050 228.82)",
+          "oklch(83.6% 0.0050 228.82)",
+          "oklch(95.0% 0.0050 228.82)"
+        ]
+      },
+      "note-surface": {
+        "role": "neutral",
+        "displayName": "Note Surface",
+        "tonalRamp": [
+          "oklch(15.0% 0.0203 74.66)",
+          "oklch(26.4% 0.0203 74.66)",
+          "oklch(37.9% 0.0203 74.66)",
+          "oklch(49.3% 0.0203 74.66)",
+          "oklch(60.7% 0.0203 74.66)",
+          "oklch(72.1% 0.0203 74.66)",
+          "oklch(83.6% 0.0203 74.66)",
+          "oklch(95.0% 0.0203 74.66)"
+        ]
+      },
+      "source-text": {
+        "role": "neutral",
+        "displayName": "Source Text",
+        "tonalRamp": [
+          "oklch(15.0% 0.0414 234.86)",
+          "oklch(26.4% 0.0414 234.86)",
+          "oklch(37.9% 0.0414 234.86)",
+          "oklch(49.3% 0.0414 234.86)",
+          "oklch(60.7% 0.0414 234.86)",
+          "oklch(72.1% 0.0414 234.86)",
+          "oklch(83.6% 0.0414 234.86)",
+          "oklch(95.0% 0.0414 234.86)"
+        ]
+      },
+      "link": {
+        "role": "neutral",
+        "displayName": "Link",
+        "tonalRamp": [
+          "oklch(15.0% 0.0691 233.75)",
+          "oklch(26.4% 0.0691 233.75)",
+          "oklch(37.9% 0.0691 233.75)",
+          "oklch(49.3% 0.0691 233.75)",
+          "oklch(60.7% 0.0691 233.75)",
+          "oklch(72.1% 0.0691 233.75)",
+          "oklch(83.6% 0.0691 233.75)",
+          "oklch(95.0% 0.0691 233.75)"
+        ]
+      },
+      "selection": {
+        "role": "neutral",
+        "displayName": "Selection",
+        "tonalRamp": [
+          "oklch(15.0% 0.0228 229.10)",
+          "oklch(26.4% 0.0228 229.10)",
+          "oklch(37.9% 0.0228 229.10)",
+          "oklch(49.3% 0.0228 229.10)",
+          "oklch(60.7% 0.0228 229.10)",
+          "oklch(72.1% 0.0228 229.10)",
+          "oklch(83.6% 0.0228 229.10)",
+          "oklch(95.0% 0.0228 229.10)"
+        ]
+      },
+      "footer-divider": {
+        "role": "neutral",
+        "displayName": "Footer Divider",
+        "tonalRamp": [
+          "oklch(15.0% 0.0172 236.73)",
+          "oklch(26.4% 0.0172 236.73)",
+          "oklch(37.9% 0.0172 236.73)",
+          "oklch(49.3% 0.0172 236.73)",
+          "oklch(60.7% 0.0172 236.73)",
+          "oklch(72.1% 0.0172 236.73)",
+          "oklch(83.6% 0.0172 236.73)",
+          "oklch(95.0% 0.0172 236.73)"
+        ]
+      },
+      "footer-text": {
+        "role": "neutral",
+        "displayName": "Footer Text",
+        "tonalRamp": [
+          "oklch(15.0% 0.0381 238.98)",
+          "oklch(26.4% 0.0381 238.98)",
+          "oklch(37.9% 0.0381 238.98)",
+          "oklch(49.3% 0.0381 238.98)",
+          "oklch(60.7% 0.0381 238.98)",
+          "oklch(72.1% 0.0381 238.98)",
+          "oklch(83.6% 0.0381 238.98)",
+          "oklch(95.0% 0.0381 238.98)"
+        ]
+      }
+    },
+    "shadows": [],
+    "motion": [],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Evidence label",
+      "kind": "custom",
+      "refersTo": "evidence-label",
+      "description": "Explicit report scope between separators.",
+      "html": "<p class=\"ds-label\">VISOR DE EVIDENCIA / EVIDENCE VIEWER · Not product UI</p>",
+      "css": ".ds-label{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:#172c3c;line-height:1.45;font-size:14px;font-weight:700;color:#8b371f;padding:9px 0;border-top:1px solid #d8e0e5;border-bottom:1px solid #d8e0e5;}"
+    },
+    {
+      "name": "Evidence table",
+      "kind": "custom",
+      "refersTo": "evidence-table",
+      "description": "Compact, wrapping evidence rows.",
+      "html": "<table class=\"ds-table\"><thead><tr><th>Campo / Field</th><th>Valor / Value</th></tr></thead><tbody><tr><td>threshold</td><td>5</td></tr></tbody></table>",
+      "css": ".ds-table{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:#172c3c;line-height:1.45;width:100%;border-collapse:collapse;font-size:16px}.ds-table th{text-align:left;background:#eaf0f4;font-size:14px}.ds-table th,.ds-table td{padding:9px 12px;border-bottom:1px solid #d8e0e5;overflow-wrap:anywhere}.ds-table td{font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Literal output",
+      "kind": "custom",
+      "refersTo": "literal-output",
+      "description": "Unembellished literal output block.",
+      "html": "<pre class=\"ds-output\">expectations=passed</pre>",
+      "css": ".ds-output{font:15px/1.45 ui-monospace, SFMono-Regular, Consolas, monospace;color:#172c3c;background:#f1f5f7;padding:15px 18px;margin:0;white-space:pre-wrap;overflow-wrap:anywhere}"
+    },
+    {
+      "name": "Explanatory note",
+      "kind": "custom",
+      "refersTo": "explanatory-note",
+      "description": "Quiet explanatory context.",
+      "html": "<p class=\"ds-note\">Evidencia sintética / Synthetic evidence</p>",
+      "css": ".ds-note{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:#172c3c;line-height:1.45;background:#fff5e8;padding:13px 17px;font-size:16px;margin-top:18px}"
+    },
+    {
+      "name": "Source link",
+      "kind": "custom",
+      "refersTo": "source-link",
+      "description": "Native underlined link with visible keyboard focus.",
+      "html": "<a class=\"ds-source\" href=\"#source\">outputs/verification.json</a>",
+      "css": ".ds-source{font:12px/1.6 ui-monospace,SFMono-Regular,monospace;color:#245771;text-underline-offset:3px;overflow-wrap:anywhere}.ds-source:hover{color:#8b371f}.ds-source:focus-visible{outline:2px solid #8b371f;outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Evidence Report",
+    "overview": "A navy-on-white evidence report extending the established Network Access Auditor documentation pattern. Compact tables, literal outputs and source links support calm, factual review in Spanish and English. This system describes a read-only desktop evidence viewer, not product UI or a new product identity.",
+    "keyCharacteristics": [
+      "Compact tables with tabular numerals.",
+      "Bilingual hierarchy and explicit evidence-viewer labels.",
+      "Flat paper surfaces, restrained amber notes and traceable outputs."
+    ],
+    "rules": [],
+    "dos": [
+      "Do keep ES/EN headings and the evidence-viewer / Not product UI labels visible.",
+      "Do preserve literal logs, JSON and source links as factual evidence.",
+      "Do retain the compact table rhythm and wrapping for long values."
+    ],
+    "donts": [
+      "Don't present these screenshots as a functioning product interface.",
+      "Don't add simulated terminals, generated evidence imagery or decorative dashboard controls.",
+      "Don't imply automated visual validation that did not run."
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "counts": {
+    "duplicates_removed": 0,
+    "input_records": 5,
+    "unique_events": 5
+  },
+  "evaluation_status": "passed",
+  "files": {
+    "alerts.csv": {
+      "bytes": 414,
+      "sha256": "be703d802c5af3f585499199e7747ccc7e30ca936d50c825176ee86474b6dff7"
+    },
+    "evaluation.json": {
+      "bytes": 205,
+      "sha256": "4475787d65557111b2854f6af68e01d33f8dfe22046197f49eea42b43582cc84"
+    },
+    "events.jsonl": {
+      "bytes": 730,
+      "sha256": "49d039e368f5714e86b7f1a3fbdfc789720b44039da9f114f76b5ec339fbc945"
+    },
+    "expected.json": {
+      "bytes": 300,
+      "sha256": "643ef4d7dc4fa0baf22c94aaffc85bac6facd6bfd574a67b7e8182f0b1bec738"
+    },
+    "replay.json": {
+      "bytes": 2179,
+      "sha256": "8c8d3b946627a30a1aac58365f4b680394d08cda22da8c57a27491086a99bb51"
+    },
+    "report.md": {
+      "bytes": 2831,
+      "sha256": "4e2b1105b2fd01245292530968f0dd7804e851f945711421e7d5e776dddbf770"
+    },
+    "rule-metrics.csv": {
+      "bytes": 270,
+      "sha256": "0fc7429dfd5e83041971a473114c2e25eada643f8b07835c0f34d084ec86d479"
+    },
+    "rules.json": {
+      "bytes": 530,
+      "sha256": "5be49b29eab836290dfb5dcacb31e56b32ff53826282abee068fadf3afdcf0f8"
+    }
+  },
+  "normalized_events_sha256": "49d039e368f5714e86b7f1a3fbdfc789720b44039da9f114f76b5ec339fbc945",
+  "schema_version": 1,
+  "scope": "offline-normalized-event-replay",
+  "source_sha256": {
+    "events": "49d039e368f5714e86b7f1a3fbdfc789720b44039da9f114f76b5ec339fbc945",
+    "expected": "643ef4d7dc4fa0baf22c94aaffc85bac6facd6bfd574a67b7e8182f0b1bec738",
+    "rules": "b09829a6801d51b34ca9581efbdc4500c6d2b83d87bd1e698f93ad2b87c548fb"
+  },
+  "tool": "security-detection-lab",
+  "version": "0.1.0"
+}

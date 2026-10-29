@@ -1,0 +1,23 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Una expectativa incorrecta falla | Security Detection Lab</title><link rel="stylesheet" href="style.css"></head><body><main><header><h1>Una expectativa incorrecta falla</h1><p class="english" lang="en">An incorrect expectation fails</p><p class="label">Security Detection Lab · VISOR DE EVIDENCIA / EVIDENCE VIEWER · No es UI del producto</p><p class="intro">expectation-mismatch · El contrato detecta una alerta inesperada</p></header><section><h2>Esperado frente a observado / Expected versus observed</h2><table><thead><tr><th>expected_alerts</th><th>actual_alerts</th><th>matched_alerts</th><th>status</th><th>CLI exit</th></tr></thead><tbody><tr><td>0</td><td>1</td><td>0</td><td>failed</td><td>1</td></tr></tbody></table></section><p class="note">Fallo deliberado: este fixture espera cero alertas aunque los eventos producen una. El verificador exige exit 1. / Deliberate failure: this fixture expects zero alerts while the events produce one. The verification script requires exit 1.</p><section><h2>Evaluación JSON literal / Literal evaluation JSON</h2><pre>{
+  &quot;actual_alerts&quot;: 1,
+  &quot;evidence_mismatches&quot;: [],
+  &quot;expected_alerts&quot;: 0,
+  &quot;matched_alerts&quot;: 0,
+  &quot;missing_alerts&quot;: [],
+  &quot;scenario&quot;: &quot;expectation-mismatch&quot;,
+  &quot;status&quot;: &quot;failed&quot;,
+  &quot;unexpected_alerts&quot;: [
+    {
+      &quot;evidence_ids&quot;: [
+        &quot;fail-1&quot;,
+        &quot;fail-2&quot;,
+        &quot;fail-3&quot;,
+        &quot;fail-4&quot;,
+        &quot;fail-5&quot;
+      ],
+      &quot;rule_id&quot;: &quot;auth-failure-burst&quot;,
+      &quot;trigger_id&quot;: &quot;fail-5&quot;
+    }
+  ]
+}
+</pre></section><section><h2>Salida CLI literal / Literal CLI output</h2><pre>SIGNALS_DETECTED | 1 alerts | 6 unique events | 0 duplicates removed | expectations=failed | offline-normalized-event-replay</pre><p class="exit">Exit code: <strong>1</strong></p></section><div class="sources"><b>FUENTES / SOURCES · SHA-256 abreviado; valores completos en manifest.json</b><br><a href="../outputs/expectation-mismatch/expected.json">outputs/expectation-mismatch/expected.json</a> · 789906ea40704ad4<br><a href="../outputs/expectation-mismatch/evaluation.json">outputs/expectation-mismatch/evaluation.json</a> · d9c6800c3d0efc13<br><a href="../outputs/expectation-mismatch/replay.json">outputs/expectation-mismatch/replay.json</a> · 37b136686b49e886<br><a href="../outputs/verification.json">outputs/verification.json</a> · fccb058a5fd44e23</div><footer><b>OFFLINE · Eventos sintéticos / Synthetic events · Not product UI</b><p>Sin conexión a SIEM, tráfico, ataques ni escaneos. Las señales no prueban compromiso.<br>No SIEM connection, traffic, attacks or scanning. Signals do not establish compromise.</p><div class="meta"><span>v0.1.0 · commit dc31cf4c1381</span><span>2026-10-29 · America/Tegucigalpa · 4/5</span></div></footer></main></body></html>

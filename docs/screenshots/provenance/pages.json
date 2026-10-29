@@ -1,0 +1,27 @@
+[
+  {
+    "id": "01-auth-burst",
+    "title_es": "Una alerta con cinco eventos de evidencia",
+    "title_en": "One alert, five evidence events"
+  },
+  {
+    "id": "02-denied-ports",
+    "title_es": "Cinco puertos denegados, una señal",
+    "title_en": "Five denied ports, one signal"
+  },
+  {
+    "id": "03-window-and-duplicates",
+    "title_es": "El borde cuenta; el duplicado no",
+    "title_en": "The boundary counts; the duplicate does not"
+  },
+  {
+    "id": "04-expectation-mismatch",
+    "title_es": "Una expectativa incorrecta falla",
+    "title_en": "An incorrect expectation fails"
+  },
+  {
+    "id": "05-verification",
+    "title_es": "126 pruebas y nueve escenarios verificados",
+    "title_en": "126 tests and nine verified scenarios"
+  }
+]

@@ -1,0 +1,10 @@
+PASS benign | exit=0 | NO_SIGNALS | 0 alerts | 8 unique events | 0 duplicates removed | expectations=passed | offline-normalized-event-replay
+PASS auth-burst | exit=0 | SIGNALS_DETECTED | 1 alerts | 6 unique events | 0 duplicates removed | expectations=passed | offline-normalized-event-replay
+PASS multi-account | exit=0 | SIGNALS_DETECTED | 1 alerts | 5 unique events | 0 duplicates removed | expectations=passed | offline-normalized-event-replay
+PASS success-after-failures | exit=0 | SIGNALS_DETECTED | 1 alerts | 4 unique events | 0 duplicates removed | expectations=passed | offline-normalized-event-replay
+PASS denied-ports | exit=0 | SIGNALS_DETECTED | 1 alerts | 5 unique events | 0 duplicates removed | expectations=passed | offline-normalized-event-replay
+PASS window-boundary | exit=0 | SIGNALS_DETECTED | 1 alerts | 3 unique events | 0 duplicates removed | expectations=passed | offline-normalized-event-replay
+PASS duplicate-replay | exit=0 | SIGNALS_DETECTED | 1 alerts | 6 unique events | 1 duplicates removed | expectations=passed | offline-normalized-event-replay
+PASS expectation-mismatch | exit=1 | SIGNALS_DETECTED | 1 alerts | 6 unique events | 0 duplicates removed | expectations=failed | offline-normalized-event-replay
+PASS conflicting-id | exit=2 | Input error: Conflicting payloads share an event ID.
+9 CLI scenarios verified; deliberate mismatch and invalid-input exits are expected.

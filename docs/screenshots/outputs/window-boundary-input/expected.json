@@ -1,0 +1,14 @@
+{
+  "alerts": [
+    {
+      "evidence_ids": [
+        "edge-first",
+        "edge-inclusive"
+      ],
+      "rule_id": "auth-failure-burst",
+      "trigger_id": "edge-inclusive"
+    }
+  ],
+  "scenario": "window-boundary",
+  "schema_version": 1
+}

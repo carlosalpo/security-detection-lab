@@ -1,0 +1,16 @@
+{
+  "alerts": [
+    {
+      "evidence_ids": [
+        "failure-1",
+        "failure-2",
+        "failure-3",
+        "login-success"
+      ],
+      "rule_id": "success-after-failures",
+      "trigger_id": "login-success"
+    }
+  ],
+  "scenario": "success-after-failures",
+  "schema_version": 1
+}

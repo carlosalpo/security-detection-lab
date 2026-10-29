@@ -1,0 +1,2 @@
+id,rule_id,timestamp,trigger_id,severity,group,metric,value,threshold,window_seconds,window_start,evidence_ids
+a3e1fba350ee50d179653d16505e1459fc9649065bd9fdf3e2116f13ac2d1f4f,auth-failure-burst,2026-10-29T12:05:00Z,edge-inclusive,medium,"{""service"": ""vpn-lab"", ""src_ip"": ""192.0.2.10"", ""user"": ""alice""}",failure_count,2,2,300,2026-10-29T12:00:00Z,"[""edge-first"", ""edge-inclusive""]"

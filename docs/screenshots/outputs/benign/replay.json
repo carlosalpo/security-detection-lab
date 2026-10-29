@@ -1,0 +1,63 @@
+{
+  "alerts": [],
+  "counts": {
+    "duplicates_removed": 0,
+    "input_records": 8,
+    "unique_events": 8
+  },
+  "evaluation": {
+    "actual_alerts": 0,
+    "evidence_mismatches": [],
+    "expected_alerts": 0,
+    "matched_alerts": 0,
+    "missing_alerts": [],
+    "scenario": "benign",
+    "status": "passed",
+    "unexpected_alerts": []
+  },
+  "rules": [
+    {
+      "emitted_alerts": 0,
+      "enabled": true,
+      "matched_events": 2,
+      "qualifying_triggers": 0,
+      "rule_id": "auth-failure-burst",
+      "suppressed_triggers": 0,
+      "threshold": 5,
+      "window_seconds": 300
+    },
+    {
+      "emitted_alerts": 0,
+      "enabled": true,
+      "matched_events": 0,
+      "qualifying_triggers": 0,
+      "rule_id": "denied-port-fanout",
+      "suppressed_triggers": 0,
+      "threshold": 5,
+      "window_seconds": 60
+    },
+    {
+      "emitted_alerts": 0,
+      "enabled": true,
+      "matched_events": 2,
+      "qualifying_triggers": 0,
+      "rule_id": "multi-account-failures",
+      "suppressed_triggers": 0,
+      "threshold": 5,
+      "window_seconds": 300
+    },
+    {
+      "emitted_alerts": 0,
+      "enabled": true,
+      "matched_events": 3,
+      "qualifying_triggers": 0,
+      "rule_id": "success-after-failures",
+      "suppressed_triggers": 0,
+      "threshold": 3,
+      "window_seconds": 300
+    }
+  ],
+  "schema_version": 1,
+  "scope": "offline-normalized-event-replay",
+  "status": "no_signals"
+}

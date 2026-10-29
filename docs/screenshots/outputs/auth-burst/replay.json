@@ -1,0 +1,89 @@
+{
+  "alerts": [
+    {
+      "description": "Repeated authentication failures for one source, account and service.",
+      "evidence_ids": [
+        "fail-1",
+        "fail-2",
+        "fail-3",
+        "fail-4",
+        "fail-5"
+      ],
+      "group": {
+        "service": "vpn-lab",
+        "src_ip": "192.0.2.10",
+        "user": "alice"
+      },
+      "id": "464a65fc5cf44cb4f2068bf73d1938a373fef7bce53578ffcb1979d9a72fefed",
+      "metric": "failure_count",
+      "rule_id": "auth-failure-burst",
+      "severity": "medium",
+      "threshold": 5,
+      "timestamp": "2026-10-29T12:00:50Z",
+      "trigger_id": "fail-5",
+      "value": 5,
+      "window_seconds": 300,
+      "window_start": "2026-10-29T11:55:50Z"
+    }
+  ],
+  "counts": {
+    "duplicates_removed": 0,
+    "input_records": 6,
+    "unique_events": 6
+  },
+  "evaluation": {
+    "actual_alerts": 1,
+    "evidence_mismatches": [],
+    "expected_alerts": 1,
+    "matched_alerts": 1,
+    "missing_alerts": [],
+    "scenario": "auth-burst",
+    "status": "passed",
+    "unexpected_alerts": []
+  },
+  "rules": [
+    {
+      "emitted_alerts": 1,
+      "enabled": true,
+      "matched_events": 6,
+      "qualifying_triggers": 2,
+      "rule_id": "auth-failure-burst",
+      "suppressed_triggers": 1,
+      "threshold": 5,
+      "window_seconds": 300
+    },
+    {
+      "emitted_alerts": 0,
+      "enabled": true,
+      "matched_events": 0,
+      "qualifying_triggers": 0,
+      "rule_id": "denied-port-fanout",
+      "suppressed_triggers": 0,
+      "threshold": 5,
+      "window_seconds": 60
+    },
+    {
+      "emitted_alerts": 0,
+      "enabled": true,
+      "matched_events": 6,
+      "qualifying_triggers": 0,
+      "rule_id": "multi-account-failures",
+      "suppressed_triggers": 0,
+      "threshold": 5,
+      "window_seconds": 300
+    },
+    {
+      "emitted_alerts": 0,
+      "enabled": true,
+      "matched_events": 6,
+      "qualifying_triggers": 0,
+      "rule_id": "success-after-failures",
+      "suppressed_triggers": 0,
+      "threshold": 3,
+      "window_seconds": 300
+    }
+  ],
+  "schema_version": 1,
+  "scope": "offline-normalized-event-replay",
+  "status": "signals_detected"
+}

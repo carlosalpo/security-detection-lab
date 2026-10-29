@@ -1,0 +1,47 @@
+[
+  {
+    "scenario": "benign",
+    "exit_code": 0,
+    "output": "NO_SIGNALS | 0 alerts | 8 unique events | 0 duplicates removed | expectations=passed | offline-normalized-event-replay"
+  },
+  {
+    "scenario": "auth-burst",
+    "exit_code": 0,
+    "output": "SIGNALS_DETECTED | 1 alerts | 6 unique events | 0 duplicates removed | expectations=passed | offline-normalized-event-replay"
+  },
+  {
+    "scenario": "multi-account",
+    "exit_code": 0,
+    "output": "SIGNALS_DETECTED | 1 alerts | 5 unique events | 0 duplicates removed | expectations=passed | offline-normalized-event-replay"
+  },
+  {
+    "scenario": "success-after-failures",
+    "exit_code": 0,
+    "output": "SIGNALS_DETECTED | 1 alerts | 4 unique events | 0 duplicates removed | expectations=passed | offline-normalized-event-replay"
+  },
+  {
+    "scenario": "denied-ports",
+    "exit_code": 0,
+    "output": "SIGNALS_DETECTED | 1 alerts | 5 unique events | 0 duplicates removed | expectations=passed | offline-normalized-event-replay"
+  },
+  {
+    "scenario": "window-boundary",
+    "exit_code": 0,
+    "output": "SIGNALS_DETECTED | 1 alerts | 3 unique events | 0 duplicates removed | expectations=passed | offline-normalized-event-replay"
+  },
+  {
+    "scenario": "duplicate-replay",
+    "exit_code": 0,
+    "output": "SIGNALS_DETECTED | 1 alerts | 6 unique events | 1 duplicates removed | expectations=passed | offline-normalized-event-replay"
+  },
+  {
+    "scenario": "expectation-mismatch",
+    "exit_code": 1,
+    "output": "SIGNALS_DETECTED | 1 alerts | 6 unique events | 0 duplicates removed | expectations=failed | offline-normalized-event-replay"
+  },
+  {
+    "scenario": "conflicting-id",
+    "exit_code": 2,
+    "output": "Input error: Conflicting payloads share an event ID."
+  }
+]

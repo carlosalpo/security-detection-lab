@@ -1,0 +1,2 @@
+id,rule_id,timestamp,trigger_id,severity,group,metric,value,threshold,window_seconds,window_start,evidence_ids
+5139b33dc001c5392291c5f816e5676b31e7f0d6ab750fefd7d02235b9d9c321,multi-account-failures,2026-10-29T12:00:50Z,account-5,high,"{""service"": ""vpn-lab"", ""src_ip"": ""192.0.2.10""}",distinct_users,5,5,300,2026-10-29T11:55:50Z,"[""account-1"", ""account-2"", ""account-3"", ""account-4"", ""account-5""]"

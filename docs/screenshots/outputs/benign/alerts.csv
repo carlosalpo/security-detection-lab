@@ -1,0 +1,1 @@
+id,rule_id,timestamp,trigger_id,severity,group,metric,value,threshold,window_seconds,window_start,evidence_ids

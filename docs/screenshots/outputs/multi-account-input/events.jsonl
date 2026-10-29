@@ -1,0 +1,5 @@
+{"id":"account-1","outcome":"failure","service":"vpn-lab","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:10Z","type":"auth","user":"user-1"}
+{"id":"account-2","outcome":"failure","service":"vpn-lab","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:20Z","type":"auth","user":"user-2"}
+{"id":"account-3","outcome":"failure","service":"vpn-lab","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:30Z","type":"auth","user":"user-3"}
+{"id":"account-4","outcome":"failure","service":"vpn-lab","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:40Z","type":"auth","user":"user-4"}
+{"id":"account-5","outcome":"failure","service":"vpn-lab","src_ip":"192.0.2.10","timestamp":"2026-10-29T12:00:50Z","type":"auth","user":"user-5"}

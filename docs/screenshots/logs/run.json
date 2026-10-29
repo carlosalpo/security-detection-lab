@@ -1,0 +1,141 @@
+{
+  "source_commit": "dc31cf4c138123775185c41612e139082d383070",
+  "version": "0.1.0",
+  "source_clean_before": true,
+  "source_clean_after": true,
+  "tracked_files_match_commit": true,
+  "tracked_files_unchanged": true,
+  "import_source": ".venv/lib/python3.12/site-packages/detectionlab/__init__.py",
+  "installed_python_files_match_commit": true,
+  "installed_python_sha256": {
+    "__init__.py": "63c4f9f7e90a9e637d6c8083477309b7b4a6fee017f09bfd995ab4f9dcac3532",
+    "cli.py": "8d0e939b11c8d6be7718aa2d87d654cfce93a3bb0283ad19238755bedf672489",
+    "engine.py": "316593422928a104d8a87d7d160859f8bb29c3d200886433d70cba06372df8f1",
+    "fixtures.py": "41a949d47d6c627264d38bf201103f0e109cbfae07422418295cf81f3066ffde",
+    "model.py": "fd615ba99f0c358005a45118f288d05fdca04112a9671af93cfc0ba09b6efd83",
+    "report.py": "d3c7ae425a2e4a2bdc6a6a8c5880c4f44fc30802a4f04ab6adcf4bf621b5ca55"
+  },
+  "source_sha256": {
+    ".github/workflows/ci.yml": "e42e0a5647b95af8f1cae14153e880193371ee0027dc0775d69767ee0276a1db",
+    ".gitignore": "8665ea518c04bf84c63d559ac146ff5f6f745e2c5d222b1eb971d7e8873bbc8f",
+    "LICENSE": "a305974127d07a1f9f85714281ba7ffaae5d0d5f207ea76ab6410dc47282392f",
+    "README.md": "57e271f837d36a03dc635770f9ddbcadc26b66a809c95d8943c5297a21254553",
+    "docs/illustrations/cover.png": "3081002df16a22f0f74c2241579bff70b7923314cf44b1e01dcc36cbb938fbd4",
+    "docs/illustrations/detail.png": "a9a479b2d7919cc2061d2285bc056d7d038a7d856633e4b37152fac446f1728f",
+    "docs/security-and-scope.md": "8b2249a2164d4830f1f43433dbcf77f0fd1a9ae51e34f6bc46253ebedc537339",
+    "docs/specification.md": "37ead8e19e22f5cd9d51b94a60511a8e5927479e3285da8e1d9a39ac43415bde",
+    "docs/verification.md": "57e2e8eed8d1c8d362c94e953fdf9189c16b39ab6be40b46da0e71cf063e6d9a",
+    "examples/auth-burst/events.jsonl": "41719666e290ff4a84da7777bd89f8e16114186e0201392cbc1e0ca5c05808c9",
+    "examples/auth-burst/expected.json": "978a237f3a3596fa83d496d13d2b399e0d8449405765f49a8fd3a578ae234c87",
+    "examples/auth-burst/rules.json": "b09829a6801d51b34ca9581efbdc4500c6d2b83d87bd1e698f93ad2b87c548fb",
+    "examples/benign/events.jsonl": "bff464cd36b0cc6858593a6f1ae242a4603d66d256ec8344cdf724afdad684a6",
+    "examples/benign/expected.json": "009e3b0bcf58d81c38ccf1614c6c5890bb53c190ddbfbd56e15a2e2c4c7d1732",
+    "examples/benign/rules.json": "b09829a6801d51b34ca9581efbdc4500c6d2b83d87bd1e698f93ad2b87c548fb",
+    "examples/denied-ports/events.jsonl": "b39dc2e905807a3d9b408bdf0c6d83a47535fda806afe06734c3870b5ed37997",
+    "examples/denied-ports/expected.json": "8879029179dac912a202545f9e0a9718beaedae3f4471f706c65ea5d6bb5cede",
+    "examples/denied-ports/rules.json": "b09829a6801d51b34ca9581efbdc4500c6d2b83d87bd1e698f93ad2b87c548fb",
+    "examples/duplicate-replay/events.jsonl": "53a65b8588bb622777a826baae9fa5b8995686d2250368ab804be1c5c74b5bb3",
+    "examples/duplicate-replay/expected.json": "53fbd5ea8b0089b4d0a183add4fbf58788745c9f85ffd0d87461085dd8867ec1",
+    "examples/duplicate-replay/rules.json": "b09829a6801d51b34ca9581efbdc4500c6d2b83d87bd1e698f93ad2b87c548fb",
+    "examples/expectation-mismatch/events.jsonl": "41719666e290ff4a84da7777bd89f8e16114186e0201392cbc1e0ca5c05808c9",
+    "examples/expectation-mismatch/expected.json": "789906ea40704ad48340c10b496b6355f2a76e980ff9a79e1bcc209eebfc464f",
+    "examples/expectation-mismatch/rules.json": "b09829a6801d51b34ca9581efbdc4500c6d2b83d87bd1e698f93ad2b87c548fb",
+    "examples/multi-account/events.jsonl": "49d039e368f5714e86b7f1a3fbdfc789720b44039da9f114f76b5ec339fbc945",
+    "examples/multi-account/expected.json": "643ef4d7dc4fa0baf22c94aaffc85bac6facd6bfd574a67b7e8182f0b1bec738",
+    "examples/multi-account/rules.json": "b09829a6801d51b34ca9581efbdc4500c6d2b83d87bd1e698f93ad2b87c548fb",
+    "examples/success-after-failures/events.jsonl": "aee94b9b4b953ae099fdf5166e48a71857b9bf35db7c365f668d9e643675e681",
+    "examples/success-after-failures/expected.json": "b7cd3113c2120e26b9c49aa26eac613b272e97e08663b79915da972c6a41cf0b",
+    "examples/success-after-failures/rules.json": "b09829a6801d51b34ca9581efbdc4500c6d2b83d87bd1e698f93ad2b87c548fb",
+    "examples/window-boundary/events.jsonl": "5e3153aacdf965c3ef26a3fa500d75183bdfafaed288d86770c4059f3d2eb98e",
+    "examples/window-boundary/expected.json": "759f0208fc80c6e300b4dd919526ad9f8ad9d8def7d86034590e67ae20633833",
+    "examples/window-boundary/rules.json": "6d540b3d7c71adb08ba6aa94a6f2c06e86d95942b93336c6948bd148116db914",
+    "pyproject.toml": "8a7f111fa9027e13bb6e1523f0f4d0448dbbee727ade6b8efd7a4dc1ea657c4a",
+    "scripts/check_examples.py": "ecc9974c1dc60d261e350e49a0c4ad7637c142256f3e6176e5c5b765f8864e3b",
+    "src/detectionlab/__init__.py": "63c4f9f7e90a9e637d6c8083477309b7b4a6fee017f09bfd995ab4f9dcac3532",
+    "src/detectionlab/cli.py": "8d0e939b11c8d6be7718aa2d87d654cfce93a3bb0283ad19238755bedf672489",
+    "src/detectionlab/engine.py": "316593422928a104d8a87d7d160859f8bb29c3d200886433d70cba06372df8f1",
+    "src/detectionlab/fixtures.py": "41a949d47d6c627264d38bf201103f0e109cbfae07422418295cf81f3066ffde",
+    "src/detectionlab/model.py": "fd615ba99f0c358005a45118f288d05fdca04112a9671af93cfc0ba09b6efd83",
+    "src/detectionlab/report.py": "d3c7ae425a2e4a2bdc6a6a8c5880c4f44fc30802a4f04ab6adcf4bf621b5ca55",
+    "tests/test_detection.py": "98f95c6766c50916610a2f52e35fc7ad087e9d35f6f092ac2ce9f5869cfdc398"
+  },
+  "environment": {
+    "PATH": "<SOURCE>/.venv/bin prepended",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "cache_and_temp": "<EVIDENCE>/execution/runtime",
+    "PYTEST_ADDOPTS": ""
+  },
+  "commands": [
+    {
+      "name": "environment",
+      "argv": [
+        "<SOURCE>/.venv/bin/python",
+        "-c",
+        "import sys,importlib.metadata as m,detectionlab; print(\"Python \" + sys.version.split()[0]); print(\"security-detection-lab \" + m.version(\"security-detection-lab\")); print(\"pytest \" + m.version(\"pytest\")); print(\"ruff \" + m.version(\"ruff\"))"
+      ],
+      "cwd": "<SOURCE>",
+      "started_at_utc": "2026-10-29T21:51:32.348365+00:00",
+      "finished_at_utc": "2026-10-29T21:51:32.543946+00:00",
+      "exit_code": 0
+    },
+    {
+      "name": "ruff-check",
+      "argv": [
+        "<SOURCE>/.venv/bin/ruff",
+        "check",
+        "--no-cache",
+        "src",
+        "tests",
+        "scripts"
+      ],
+      "cwd": "<SOURCE>",
+      "started_at_utc": "2026-10-29T21:51:32.543971+00:00",
+      "finished_at_utc": "2026-10-29T21:51:32.597064+00:00",
+      "exit_code": 0
+    },
+    {
+      "name": "ruff-format",
+      "argv": [
+        "<SOURCE>/.venv/bin/ruff",
+        "format",
+        "--check",
+        "--no-cache",
+        "src",
+        "tests",
+        "scripts"
+      ],
+      "cwd": "<SOURCE>",
+      "started_at_utc": "2026-10-29T21:51:32.597089+00:00",
+      "finished_at_utc": "2026-10-29T21:51:32.628741+00:00",
+      "exit_code": 0
+    },
+    {
+      "name": "pytest",
+      "argv": [
+        "<SOURCE>/.venv/bin/pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp",
+        "<EVIDENCE>/execution/runtime/pytest"
+      ],
+      "cwd": "<SOURCE>",
+      "started_at_utc": "2026-10-29T21:51:32.628759+00:00",
+      "finished_at_utc": "2026-10-29T21:51:33.263445+00:00",
+      "exit_code": 0
+    },
+    {
+      "name": "examples",
+      "argv": [
+        "<SOURCE>/.venv/bin/python",
+        "scripts/check_examples.py",
+        "--output",
+        "../../work/evidence-captures/security-detection-lab/execution/outputs"
+      ],
+      "cwd": "<SOURCE>",
+      "started_at_utc": "2026-10-29T21:51:33.263467+00:00",
+      "finished_at_utc": "2026-10-29T21:51:36.187698+00:00",
+      "exit_code": 0
+    }
+  ]
+}

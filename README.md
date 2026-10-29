@@ -87,7 +87,14 @@ Expectations in `examples/*/expected.json` are authored independently of the det
 - [Event, rule and expectation specification](docs/specification.md)
 - [Interpretation, privacy and operational limits](docs/security-and-scope.md)
 - [Verification and provenance](docs/verification.md)
+- [Five execution screenshots, raw evidence and captions](docs/screenshots/README.md)
 - [Releases and downloadable replay packages](https://github.com/carlosalpo/security-detection-lab/releases)
+
+## Execution evidence
+
+![Real replay evidence: five authentication failures produce one expected alert](docs/screenshots/images/01-auth-burst.jpg)
+
+*Actual browser capture of a labeled evidence viewer, generated from a fresh local execution. [Explore all five captures and their sources](docs/screenshots/README.md).*
 
 ## Why this belongs in an engineering portfolio
 

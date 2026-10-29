@@ -1,0 +1,59 @@
+{
+  "01-auth-burst": {
+    "sources": [
+      "outputs/auth-burst/replay.json",
+      "outputs/auth-burst/events.jsonl",
+      "outputs/verification.json"
+    ],
+    "selection": "All six input events; all evidence IDs; selected alert fields and auth-failure-burst metrics; exact CLI message and observed exit."
+  },
+  "02-denied-ports": {
+    "sources": [
+      "outputs/denied-ports/replay.json",
+      "outputs/denied-ports/events.jsonl",
+      "outputs/verification.json"
+    ],
+    "selection": "All five denied events and ports; selected alert fields including group, evidence, threshold, window and trigger; exact CLI message and exit."
+  },
+  "03-window-and-duplicates": {
+    "sources": [
+      "outputs/window-boundary/replay.json",
+      "outputs/window-boundary/events.jsonl",
+      "outputs/duplicate-replay/replay.json",
+      "outputs/duplicate-replay-input/events.jsonl",
+      "outputs/verification.json"
+    ],
+    "selection": "All boundary event timestamps; alert bounds and threshold; duplicate counts and complete alert evidence. Timing and duplicate explanations derived from retained inputs and output."
+  },
+  "04-expectation-mismatch": {
+    "sources": [
+      "outputs/expectation-mismatch/expected.json",
+      "outputs/expectation-mismatch/evaluation.json",
+      "outputs/expectation-mismatch/replay.json",
+      "outputs/verification.json"
+    ],
+    "selection": "Complete literal evaluation.json, expected and actual counts, actual exit code and literal CLI message. Deliberate failure explicitly identified."
+  },
+  "05-verification": {
+    "sources": [
+      "logs/pytest.stdout.log",
+      "logs/ruff-check.stdout.log",
+      "logs/ruff-format.stdout.log",
+      "outputs/verification.json",
+      "logs/examples.stdout.log",
+      "logs/environment.stdout.log",
+      "logs/run.json"
+    ],
+    "selection": "Full pytest and ruff stdout; all nine CLI scenario rows; literal conflict message and runner summary; environment stdout and source identity checks.",
+    "additional_dependencies": [
+      "outputs/benign/replay.json",
+      "outputs/auth-burst/replay.json",
+      "outputs/multi-account/replay.json",
+      "outputs/success-after-failures/replay.json",
+      "outputs/denied-ports/replay.json",
+      "outputs/window-boundary/replay.json",
+      "outputs/duplicate-replay/replay.json",
+      "outputs/expectation-mismatch/replay.json"
+    ]
+  }
+}

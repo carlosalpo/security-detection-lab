@@ -1,0 +1,2 @@
+id,rule_id,timestamp,trigger_id,severity,group,metric,value,threshold,window_seconds,window_start,evidence_ids
+b5b00fb10e6ddad6e150b8948728a0e693a402c1aa99d91883962df70abaabb1,denied-port-fanout,2026-10-29T12:00:25Z,deny-5,medium,"{""dst_ip"": ""198.51.100.20"", ""src_ip"": ""192.0.2.10"", ""transport"": ""tcp""}",distinct_ports,5,5,60,2026-10-29T11:59:25Z,"[""deny-1"", ""deny-2"", ""deny-3"", ""deny-4"", ""deny-5""]"

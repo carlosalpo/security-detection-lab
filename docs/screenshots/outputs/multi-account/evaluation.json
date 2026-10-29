@@ -1,0 +1,10 @@
+{
+  "actual_alerts": 1,
+  "evidence_mismatches": [],
+  "expected_alerts": 1,
+  "matched_alerts": 1,
+  "missing_alerts": [],
+  "scenario": "multi-account",
+  "status": "passed",
+  "unexpected_alerts": []
+}

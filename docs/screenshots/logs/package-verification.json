@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "source_commit": "dc31cf4c138123775185c41612e139082d383070",
+  "nested_replay_packages": 8,
+  "nested_artifact_hashes_checked": 64,
+  "original_fixture_files_checked": 24,
+  "cli_scenarios": 9,
+  "pytest_passed": 126,
+  "screenshots": 5,
+  "installed_python_files_match_commit": true,
+  "source_provenance_checks": "recorded checks from independent run plus internal hash consistency",
+  "conflicting_id_has_no_output": true,
+  "privacy_scan": "targeted personal-path, hostname and credential patterns; no matches",
+  "screenshot_validation": "JPEG signature/dimensions and human visual review; originals captured with CUA"
+}

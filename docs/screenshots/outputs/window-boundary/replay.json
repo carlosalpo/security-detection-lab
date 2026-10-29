@@ -1,0 +1,86 @@
+{
+  "alerts": [
+    {
+      "description": "Repeated authentication failures for one source, account and service.",
+      "evidence_ids": [
+        "edge-first",
+        "edge-inclusive"
+      ],
+      "group": {
+        "service": "vpn-lab",
+        "src_ip": "192.0.2.10",
+        "user": "alice"
+      },
+      "id": "a3e1fba350ee50d179653d16505e1459fc9649065bd9fdf3e2116f13ac2d1f4f",
+      "metric": "failure_count",
+      "rule_id": "auth-failure-burst",
+      "severity": "medium",
+      "threshold": 2,
+      "timestamp": "2026-10-29T12:05:00Z",
+      "trigger_id": "edge-inclusive",
+      "value": 2,
+      "window_seconds": 300,
+      "window_start": "2026-10-29T12:00:00Z"
+    }
+  ],
+  "counts": {
+    "duplicates_removed": 0,
+    "input_records": 3,
+    "unique_events": 3
+  },
+  "evaluation": {
+    "actual_alerts": 1,
+    "evidence_mismatches": [],
+    "expected_alerts": 1,
+    "matched_alerts": 1,
+    "missing_alerts": [],
+    "scenario": "window-boundary",
+    "status": "passed",
+    "unexpected_alerts": []
+  },
+  "rules": [
+    {
+      "emitted_alerts": 1,
+      "enabled": true,
+      "matched_events": 3,
+      "qualifying_triggers": 1,
+      "rule_id": "auth-failure-burst",
+      "suppressed_triggers": 0,
+      "threshold": 2,
+      "window_seconds": 300
+    },
+    {
+      "emitted_alerts": 0,
+      "enabled": true,
+      "matched_events": 0,
+      "qualifying_triggers": 0,
+      "rule_id": "denied-port-fanout",
+      "suppressed_triggers": 0,
+      "threshold": 5,
+      "window_seconds": 60
+    },
+    {
+      "emitted_alerts": 0,
+      "enabled": true,
+      "matched_events": 3,
+      "qualifying_triggers": 0,
+      "rule_id": "multi-account-failures",
+      "suppressed_triggers": 0,
+      "threshold": 5,
+      "window_seconds": 300
+    },
+    {
+      "emitted_alerts": 0,
+      "enabled": true,
+      "matched_events": 3,
+      "qualifying_triggers": 0,
+      "rule_id": "success-after-failures",
+      "suppressed_triggers": 0,
+      "threshold": 3,
+      "window_seconds": 300
+    }
+  ],
+  "schema_version": 1,
+  "scope": "offline-normalized-event-replay",
+  "status": "signals_detected"
+}

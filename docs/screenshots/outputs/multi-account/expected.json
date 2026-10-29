@@ -1,0 +1,17 @@
+{
+  "alerts": [
+    {
+      "evidence_ids": [
+        "account-1",
+        "account-2",
+        "account-3",
+        "account-4",
+        "account-5"
+      ],
+      "rule_id": "multi-account-failures",
+      "trigger_id": "account-5"
+    }
+  ],
+  "scenario": "multi-account",
+  "schema_version": 1
+}

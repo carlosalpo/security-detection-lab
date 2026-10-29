@@ -1,0 +1,2 @@
+id,rule_id,timestamp,trigger_id,severity,group,metric,value,threshold,window_seconds,window_start,evidence_ids
+c728a7526b88b6c4627f21b0b1199ee8eeda83a77b30e74c261a2b755a575816,success-after-failures,2026-10-29T12:00:40Z,login-success,high,"{""service"": ""vpn-lab"", ""src_ip"": ""192.0.2.10"", ""user"": ""alice""}",preceding_failures,3,3,300,2026-10-29T11:55:40Z,"[""failure-1"", ""failure-2"", ""failure-3"", ""login-success""]"

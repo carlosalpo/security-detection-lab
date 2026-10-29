@@ -1,0 +1,17 @@
+{
+  "alerts": [
+    {
+      "evidence_ids": [
+        "deny-1",
+        "deny-2",
+        "deny-3",
+        "deny-4",
+        "deny-5"
+      ],
+      "rule_id": "denied-port-fanout",
+      "trigger_id": "deny-5"
+    }
+  ],
+  "scenario": "denied-ports",
+  "schema_version": 1
+}
